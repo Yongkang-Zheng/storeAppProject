@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StoreApp</string>
+    <string name="tab_text_1">STORES</string>
+    <string name="tab_text_2">FAVOURITE</string>
+</resources>

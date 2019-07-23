@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_toLeftOf="@+id/button"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/button"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/button"/>
+
+    <TextView
+        android:id="@+id/featureList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distance"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/button"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:textOn="Removed"
+        android:textOff="Added"
+        android:checked="false"
+        android:gravity="center_horizontal"/>
+
+
+</RelativeLayout>
+
+<!--/LinearLayout-->
