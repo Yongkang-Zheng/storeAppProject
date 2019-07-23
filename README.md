@@ -14,4 +14,5 @@ basic feature set
 
  # running environment
 Android Studio Version:3.4.1
+
 Emulator Device:Pixel 2 API 29
